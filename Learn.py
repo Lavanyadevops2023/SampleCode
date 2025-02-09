@@ -16,5 +16,15 @@ for i in List1:
         name.append(i)
 print("seperation of numbers are:",number,"separation of name is:",name)
 
+#check prime or not
+number=int(input("Enter the number:"))
+if number >1:
+    for i in range(2,number):
+        if(number%i)==0:
+            print(number," is not prime")
+            break
+else:
+  print(number," is prime")
+
 
 
